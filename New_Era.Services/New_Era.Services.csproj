@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\New_Era.Infrastructure\New_Era.Infrastructure.csproj" />
+    <ProjectReference Include="..\New_Era.Model\New_Era.Model.csproj" />
+  </ItemGroup>
+
+</Project>

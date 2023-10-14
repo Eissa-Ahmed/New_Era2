@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\New_Era.Model\New_Era.Model.csproj" />
+    <ProjectReference Include="..\New_Era.Services\New_Era.Services.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="11.3.0" />
+    <PackageReference Include="MediatR" Version="12.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Localization" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Localization.Abstractions" Version="7.0.12" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Auto Mapper\Department Mapper\Command\" />
+    <Folder Include="Features\DepartmentFeature\Command\Handler\" />
+    <Folder Include="Features\DepartmentFeature\Command\Models\" />
+    <Folder Include="Features\DepartmentFeature\Command\Validation\" />
+    <Folder Include="Features\InstractorFeature\" />
+    <Folder Include="Features\SubjectFeature\" />
+  </ItemGroup>
+
+</Project>
